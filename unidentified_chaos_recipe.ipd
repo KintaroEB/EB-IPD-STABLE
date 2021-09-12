@@ -1,5 +1,4 @@
-// Echoes of the Atlas - Exiled Bot default Pickit
-// UNIDENTIFIED Chaos Recipe!
+// Exiled Bot Pickit - UNIDENTIFIED Chaos Recipe!
 
 // Please report issues and changes you like to see in Slack #pickit-discussion!
 
@@ -36,7 +35,6 @@
 // Be careful, if you set up the Glorious Plate to be Chanced, no need to add any line for the bot to pick up the white item or sell magic and rare. Just setup [Type] == "Your Item" # [ChanceItem] == "true" and the bot will do the rest.
 
 // Still based on jps42 initial pickit - thank you very much!
-
 
 
 
@@ -80,10 +78,9 @@
 // Also usable to farm basic life+resist gear obviously
 // All lines except "Shield" have to be enabled in order to make !IDENTIFIED! Chaos Recipe work!
 // 
-// For !IDENTIFIED! Chaos Recipe you have to uncomment all lines out here and change the GUI settings! Simply user the other IPD if you make no changes anyway!
-// UNIDENTIFIED RECIPE GUI SETTINGS - LOOK HERE: https://i.imgur.com/05KrqWi.png
+// Simply user the other IPD if you make no changes anyway!
 
-// [Category] == "Helm" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+///[Category] == "Helm" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
 // [Category] == "Chest" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
 // [Category] == "Amulet" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
 // [Category] == "Ring" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
