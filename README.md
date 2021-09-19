@@ -1,4 +1,4 @@
 # EB-IPD-STABLE
-Stable IPD for EB
+Stable IPD for EB - Expedition league 
 
-TITLE!
+Kintaro: basic and stable IPD - bug free on my testing
