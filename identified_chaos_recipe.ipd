@@ -1,11 +1,11 @@
 // Exiled Bot Pickit - IDENTIFIED Chaos Recipe!
-
+//
 // Please report issues and changes you like to see in Slack #pickit-discussion!
-
+//
 // You'll find the item names list in the ItemNameList.txt file, in the main bot folder, if some name are missing, please send them to us in pm and I'll add them to upcoming versions.
 // You'll find the mods list in the ModsList.html file, in the main bot folder, remember to only use expressions from the right (ie. local_minimum_added_physical_damage, base_maximum_energy_shield, ...). 
 // All uniques should now be listed within the Pickit for easy commenting and uncommenting.  All uniques valued 1ex+ should be by default uncommented.
-
+//
 // There are several special mods here to make pickit maker's life easier:
 // [TotalResistances] that will make the bot sum all resistances on each item and compare them to the value (ie. [Category] == "Helm" # [TotalResistances] > "50", to keep every helm that has more than 50 sum up resistance value.  
 // [DPS] that will make the bot compute the dps of any weapon and compare it to the value (ie. [Category] == "1Handed" # [DPS] >= "250").
@@ -16,7 +16,7 @@
 // [TotalColdSpellDamage] that will make bot compute the total added cold spell damage from an item (including spell damage) (in %).
 // [TotalLightningSpellDamage] that will make bot compute the total added lightning spell damage from an item (including spell damage) (in %).
 // Expressions to the left are only here to help you choosing the right ones
-
+//
 // Syntax is: [Key] operator "Value"
 // Key could be replaced by any of the following list, operator could be ==, <=, >=, <, > and Value could be any corresponding value (ie. a number if type is Quality)
 // Key List: Type, ItemLevel, MapTier, Armor, Evasion, Energy Shield, Computed Armor, Computed Evasion, Computed Energy Shield, Rarity, Quality, Sockets, Linked, and all the mods found in ModsList.html file.
@@ -27,20 +27,15 @@
 // Operators && and || are available, parenthesis are working.
 // # is used to separate mods checked after item identification. If an item matchs mods before the # and doesn't match the ones after, it will be sold to vendor.
 // If you didn't noticed, // is used for comments.
-
+//
 // /!\ Be careful!!! local_ mod name means that the mods is applied on the stats of the items rather than the stats of your char. local_attack_speed_+% for instance is applied on the weapon only
 // and attack_speed_+% is global on the character (ring,amy,belt...) /!\
-
+//
 // If you want to chance an item, simply add for instance [Type] == "Glorious Plate" # [ChanceItem] == "true", to make the bot pickup any glorious plate it find and use an orb of chance on it (Kaom's Heart FTW).
 // Be careful, if you set up the Glorious Plate to be Chanced, no need to add any line for the bot to pick up the white item or sell magic and rare. Just setup [Type] == "Your Item" # [ChanceItem] == "true" and the bot will do the rest.
-
+//
 // Still based on jps42 initial pickit - thank you very much!
-
-
-
-
-
-
+//
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                                 B O O K M A R K                                 //
@@ -63,11 +58,10 @@
 // Uniques
 // Rare Items ( EXAMPLES ONLY )
 // Echoes of the Atlas Base Types etc.
-
-
-
-
-
+// Ritual Base Types
+// Ultimatum
+// Expedition
+//
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                            C H A O S  R E C I P E                               //
@@ -2604,6 +2598,192 @@
 
 
 
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                              U L T I M A T U M                                  //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Currency
+[Type] == "Veiled Chaos Orb" # [StashItem] == "true"
+
+// Div cards
+[Type] == "A Modest Request" # [StashItem] == "true"         // Megalomaniac
+[Type] == "Broken Promises" # [StashItem] == "true"          // Diamond Ring ilvl87 Two-Implicit Synthesised
+[Type] == "Brush, Paint and Palette" # [StashItem] == "true" // The Artist
+[Type] == "Deadly Joy" # [StashItem] == "true"               // Torrent's Reclamation Two-Implicit Corrupted
+[Type] == "Luminous Trove" # [StashItem] == "true"           // Voices
+[Type] == "Prejudice" # [StashItem] == "true"                // Influenced Item
+[Type] == "Sambodhi's Wisdom" # [StashItem] == "true"        // A Master Seeks Help (Jun)
+[Type] == "The Adventuring Spirit" # [StashItem] == "true"   // Victario's Influence
+[Type] == "The Card Sharp" # [StashItem] == "true"           // Divination Scarab
+[Type] == "The Enthusiasts" # [StashItem] == "true"          // Victario's Influence Two-Implicit Corrupted
+[Type] == "The Eternal War" # [StashItem] == "true"          // Timeless Jewel Two-Implicit Corrupted
+[Type] == "The Hook" # [StashItem] == "true"                 // Watchstone
+[Type] == "The Shortcut" # [StashItem] == "true"             // Quicksilver Flask of Adrenaline ilvl100
+[Type] == "Winter's Embrace" # [StashItem] == "true"         // Circle of Fear Three-Implicit Synthesised
+
+// Catalyst
+[Type] == "Accelerating Catalyst" # [StashItem] == "true"
+[Type] == "Noxious Catalyst"      # [StashItem] == "true"
+[Type] == "Unstable Catalyst"     # [StashItem] == "true"
+
+// Incubators
+[Type] == "Blighted Incubator"  # [StashItem] == "true"
+[Type] == "Maddening Incubator" # [StashItem] == "true"
+[Type] == "Morphing Incubator"  # [StashItem] == "true"
+
+// Scarab
+[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"
+[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"
+[Type] == "Polished Blight Scarab" # [StashItem] == "true"
+[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"
+[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Winged Blight Scarab"   # [StashItem] == "true"
+
+// Oil
+[Type] == "Tainted Oil" # [StashItem] == "true"
+
+// Map/Fragment
+[Type] == "Chronicle of Atzoatl" # [StashItem] == "true" // Portal: The Temple of Atzoatl
+[Type] == "Inscribed Ultimatum"  # [StashItem] == "true" // Portal: The Utzaal Arena
+[Type] == "Vaal Reliquary Key"   # [StashItem] == "true" // Portal: Vaal Reliquary
+
+// Uniques
+[Type] == "Ancient Gauntlets" && [Rarity] == "Unique" # [vaal_attack_rage_cost_instead_of_souls_per_use] >= "1" && [StashItem] == "true" // Hateforge
+[Type] == "Shagreen Boots" && [Rarity] == "Unique"  # [travel_skills_poison_reflected_to_self_up_to_5_poisons] >= "1" && [StashItem] == "true" // Temptation Step
+
+[Type] == "Vaal Sceptre" && [Rarity] == "Unique"   # [gain_frenzy_power_endurance_charges_on_vaal_skill_use] >= "1" && [StashItem] == "true" // Yaomac's Accord
+[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [local_display_grants_skill_blood_sacrament_level] >= "1" && [ForceSellItem] == "true" // Relic of the Pact
+[Type] == "Broadhead Arrow Quiver" && [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" && [StashItem] == "true" // Steelworm
+
+////// Rares
+//// Armor
+// Body
+// STR/DEX/Int
+// [Type] == "Grasping Mail"       # [StashItem] == "true"
+// Boots
+// [Type] == "Blessed Boots"       # [StashItem] == "true"
+
+// Gloves
+// [Type] == "Apothecary's Gloves" # [StashItem] == "true"
+
+//Quiver
+// [Type] == "Artillery Quiver"    # [StashItem] == "true"
+
+// Ring
+// [Type] == "Iolite Ring"         # [StashItem] == "true" // increased Chaos Damage
+
+// Amulet
+// [Type] == "Seaglass Amulet"     # [StashItem] == "true" // faster start of Energy Shield Recharge
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                             E X P E D I T I O N                                 //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Expedition
+[Type] == "Expedition Logbook" # [StashItem] == "true"
+
+// Currency
+[Type] == "Astragali"        # [StashItem] == "true"
+[Type] == "Burial Medallion" # [StashItem] == "true"
+[Type] == "Enkindling Orb"   # [StashItem] == "true"
+[Type] == "Exotic Coinage"   # [StashItem] == "true"
+[Type] == "Instilling Orb"   # [StashItem] == "true"
+[Type] == "Scrap Metal"      # [StashItem] == "true"
+
+// Artifacts
+[Type] == "Lesser Black Scythe Artifact"   # [StashItem] == "true"
+[Type] == "Lesser Broken Circle Artifact"  # [StashItem] == "true"
+[Type] == "Lesser Order Artifact"          # [StashItem] == "true"
+[Type] == "Lesser Sun Artifact"            # [StashItem] == "true"
+[Type] == "Common Black Scythe Artifact"   # [StashItem] == "true"
+[Type] == "Common Broken Circle Artifact"  # [StashItem] == "true"
+[Type] == "Common Order Artifact"          # [StashItem] == "true"
+[Type] == "Common Sun Artifact"            # [StashItem] == "true"
+[Type] == "Greater Broken Circle Artifact" # [StashItem] == "true"
+[Type] == "Greater Order Artifact"         # [StashItem] == "true"
+[Type] == "Greater Sun Artifact"           # [StashItem] == "true"
+[Type] == "Greater Order Artifact"         # [StashItem] == "true"
+[Type] == "Grand Black Scythe Artifact"    # [StashItem] == "true"
+[Type] == "Grand Broken Circle Artifact"   # [StashItem] == "true"
+[Type] == "Grand Order Artifact"           # [StashItem] == "true"
+[Type] == "Grand Sun Artifact"             # [StashItem] == "true"
+
+// Div cards
+[Type] == "A Sea of Blue"            # [StashItem] == "true" // 13X Orb of Alteration
+[Type] == "Ambitious Obsession"      # [StashItem] == "true" // Skittering Delirium Orb
+[Type] == "Costly Curio"             # [StashItem] == "true" // Double-Influenced Item
+[Type] == "Dementophobia"            # [StashItem] == "true" // 10x Delirium Orb
+[Type] == "Lachrymal Necrosis"       # [StashItem] == "true" // Jewel with [Corrupted Blood cannot be inflicted on you]
+[Type] == "Terrible Secret of Space" # [StashItem] == "true" // Level 21 Golem Gem w/ Any Quality Type @ +23%
+[Type] == "The Blessing of Moosh"    # [StashItem] == "true" // Labyrinth Enchantment
+[Type] == "The Emptiness"            # [StashItem] == "true" // Gem Vaal Breach Quality: +6%
+[Type] == "The Last Supper"          # [StashItem] == "true" // Bino's Kitchen Knife
+[Type] == "The Mind's Eyes"          # [StashItem] == "true" // Astral Projector
+[Type] == "The Offspring"            # [StashItem] == "true" // Ryslatha's Coil
+[Type] == "The Price of Prescience"  # [StashItem] == "true" // Vaal Temple Map Delirium: 100%
+
+
+// Flask 
+// [Type] == "Corundum Flask" # [StashItem] == "true"
+// [Type] == "Gold Flask"     # [StashItem] == "true"
+// [Type] == "Iron Flask"     # [StashItem] == "true"
+
+////// Runic Rares
+//// Armor
+// Helm
+// [Type] == "Runic Crest" # [StashItem] == "true"
+// [Type] == "Runic Crown" # [StashItem] == "true"
+// [Type] == "Runic Helm"  # [StashItem] == "true"
+
+// Body
+
+// Boots
+// [Type] == "Runic Greaves"   # [StashItem] == "true"
+// [Type] == "Runic Sabatons"  # [StashItem] == "true"
+// [Type] == "Runic Sollerets" # [StashItem] == "true"
+
+// Gloves
+// [Type] == "Runic Gages"     # [StashItem] == "true"
+// [Type] == "Runic Gauntlets" # [StashItem] == "true"
+// [Type] == "Runic Gloves"    # [StashItem] == "true"
+
+// Quiver
+// Ring
+// Amulet
+// Flask 
+// Uniques
+// Helm
+[Type] == "Runic Crown" && [Rarity] == "Unique" # [keystone_battlemage] >= "1" && [StashItem] == "true"                                    // Cadigan's Crown Runic Crown
+[Type] == "Runic Helm" && [Rarity] == "Unique"  # [energy_shield_additive_modifiers_instead_apply_to_ward] >= "1" && [StashItem] == "true" // Faithguard Runic Helm
+
+// Body
+
+// Boots
+[Type] == "Runic Sabatons" && [Rarity] == "Unique"  # [local_display_cast_summon_arbalists_on_gain_skill] >= "1" && [StashItem] == "true" // Vorana's March Runic Sabatons
+[Type] == "Runic Sollerets" && [Rarity] == "Unique" # [gain_adrenaline_when_ward_breaks_ms] >= "1" && [StashItem] == "true"               // Olroth's Charge Runic Sollerets
+
+// Gloves
+[Type] == "Runic Gauntlets" && [Rarity] == "Unique" # [gain_flask_charges_every_second_if_hit_unique_enemy_recently] >= "1" && [StashItem] == "true" // Medved's Challenge Runic Gauntlets
+[Type] == "Runic Gloves" && [Rarity] == "Unique"    # [base_damage_bypass_ward_%] >= "1" && [StashItem] == "true"                                    // Nightgrip Runic Gages
+
+// Quiver
+
+// Ring
+
+// Amulet
+
+// Flask 
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_gain_endurance_charge_per_second_during_flask_effect] >= "1" && [StashItem] == "true"          // Elixir of the Unbroken Circle Iron Flask
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_ward_does_not_break_during_effect] >= "1" && [StashItem] == "true"                             // Olroth's Resolve Iron Flask
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_inflict_fire_cold_lightning_exposure_on_nearby_enemies_on_use] >= "1" && [StashItem] == "true" // Starlight Chalice Iron Flask
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_culling_strike_during_flask_effect] >= "1" && [StashItem] == "true"                            // Vorana's Preparation Iron Flask
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
