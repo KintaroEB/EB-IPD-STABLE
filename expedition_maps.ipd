@@ -7,11 +7,11 @@
 // 
 // Contents:
 // 1 Global 	- Settings
-// 2 Map types 	- UpgradeTier
-// 3 Map types 	- SkipBossArena
-// 4 Map types 	- RunMap
-// 5 Map mods 	- Reroll
-// 6 Map mods 	- Ignore
+// 2 Map Types 	- UpgradeTier
+// 3 Map Types 	- SkipBossArena
+// 4 Map Types 	- RunMap
+// 5 Map Mods 	- Reroll
+// 6 Map Mods 	- Ignore
 // 7 Original description from default.ipd
 // 8 PS
 
@@ -283,10 +283,8 @@
 
 
 
-// === 5 Map mods - reroll ===
 
-
-// IMPORTANT REROLL XOR IGNORE Mods ////////////////////////////////////////
+//// IMPORTANT REROLL XOR IGNORE MODS REFLECT + NOREGEN ////
 
 // REROLL magic maps with Alteration
 [map_monsters_reflect_%_elemental_damage] 	>= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
@@ -312,12 +310,7 @@
 
 
 
-
-
-
-
-
-
+// === 5 Map Mods - REROLL ===
 
 // How to Roll Pack Size - Simple leave appropriate (suffix only) pack size reroll checks (has packsize in description) COMMENTED, and uncomment the rest.
 // This will force bot to reroll/aug until packsize is rolled.
@@ -401,7 +394,7 @@
 // [map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Vulnerability -- Players are cursed with Vulnerability
 //
 
-// === 6 Map mods - ignore ===
+// === 6 Map Mods - IGNORE ===
 
 // Ignore Map - (Select Map Rarity for each mod to ignore)
 // Prefix
