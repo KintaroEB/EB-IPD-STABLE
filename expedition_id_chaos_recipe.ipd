@@ -95,7 +95,7 @@
 
 ////////// Base Currency
 
-// if enabled, the bot will pickup all scrolls and ignoring the GUI settings
+// if enabled, the bot will pickup all scrolls and ignore the GUI settings
 // [Type] == "Wisdom Scroll" 	# [StashItem] == "true"
 // [Type] == "Portal Scroll" 	# [StashItem] == "true"
 
