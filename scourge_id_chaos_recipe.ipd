@@ -86,7 +86,6 @@
 [Category] == "Weapon" 	&& [Rarity] 	== "Rare" # [DPS] > "999" && [StashItem] == "true"
 [Category] == "Shield" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
 
-
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                                  CURRENCY                                       //
