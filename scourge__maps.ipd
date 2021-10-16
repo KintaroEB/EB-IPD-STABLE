@@ -562,6 +562,6 @@
 // Priority list of actions is: [UpgradeMapTier](3) >> [IgnoreMap] >> [UpgradeToRare] >> [UpgradeToMagic] >> [RunMap]
 // If you enabled UpgradeMapTier and RunMap simultaneously for a Map, the bot will run that Map
 // 
-// ver. for 3.15b, created by Impuls, updated by Kintaro
+// created by Impuls, updated by Kintaro
 
 // All the Map mods can be found in ModsList.html file.
