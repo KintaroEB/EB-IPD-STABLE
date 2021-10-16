@@ -424,6 +424,14 @@
 [Type] == "Ritual Vessel"      # [StashItem] == "true"
 [Type] == "Crescent Splinter"  # [StashItem] == "true"
 
+//////////  Scourge Currency
+
+[Type] == "Sacred Orb" 				# [StashItem] == "true"
+[Type] == "Tainted Chromatic Orb" 	# [StashItem] == "true"
+[Type] == "Tainted Orb of Fusing" 	# [StashItem] == "true"
+[Type] == "Tainted Jeweller's Orb" 	# [StashItem] == "true"
+[Type] == "Tainted Blessing" 		# [StashItem] == "true"
+
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
