@@ -427,11 +427,24 @@
 //////////  Scourge Currency
 
 [Type] == "Sacred Orb" 				# [StashItem] == "true"
+
 [Type] == "Tainted Chromatic Orb" 	# [StashItem] == "true"
 [Type] == "Tainted Orb of Fusing" 	# [StashItem] == "true"
 [Type] == "Tainted Jeweller's Orb" 	# [StashItem] == "true"
 [Type] == "Tainted Blessing" 		# [StashItem] == "true"
+
+[Type] == "Tainted Chaos Orb" 		# [StashItem] == "true"
 [Type] == "Tainted Exalted Orb" 	# [StashItem] == "true"
+[Type] == "Tainted Mythic Orb" 		# [StashItem] == "true"
+
+[Type] == "Tainted Divine Teardrop"	# [StashItem] == "true"
+
+[Type] == "Tainted Blacksmith's Whetstone" 	# [StashItem] == "true"
+[Type] == "Tainted Armourer's Scrap" 		# [StashItem] == "true"
+
+[Type] == "Kalguuran Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Deft Fossil" 			# [StashItem] == "true"
+[Type] == "Fundamental Fossil" 		# [StashItem] == "true"
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -601,6 +614,24 @@
 
 // Meta-rule
 // [Category] == "Card"                  # [StashItem] == "true"
+
+// NEW SCOURGE CARDS - START
+[Type] == "Desperate Crusade" 			 # [StashItem] == "true"
+[Type] == "A Stone Perfected" 			 # [StashItem] == "true"
+[Type] == "Treasures of the Vaal" 		 # [StashItem] == "true"
+[Type] == "The Rabbit's Foot" 			 # [StashItem] == "true"
+[Type] == "Chasing Risk" 				 # [StashItem] == "true"
+[Type] == "The Prince of Darkness" 		 # [StashItem] == "true"
+[Type] == "The Catch" 					 # [StashItem] == "true"
+[Type] == "Eternal Bonds" 				 # [StashItem] == "true"
+[Type] == "Disdain" 					 # [StashItem] == "true"
+[Type] == "The Scout" 					 # [StashItem] == "true"
+[Type] == "Guardian's Challenge" 		 # [StashItem] == "true"
+[Type] == "The Forgotten Treasure" 		 # [StashItem] == "true"
+[Type] == "The Fox in the Brambles" 	 # [StashItem] == "true"
+[Type] == "Audacity" 					 # [StashItem] == "true"
+[Type] == "The Aspirant" 				 # [StashItem] == "true"
+// NEW SCOURGE CARDS - END
 
 // [Type] == "A Dab of Ink"              # [StashItem] == "true" //  The Poet's Pen
 [Type] == "A Familiar Call"              # [StashItem] == "true" //  Jewellery of Farrul Item Level: 100 Shaper + Hunter Item
