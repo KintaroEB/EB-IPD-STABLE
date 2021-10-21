@@ -431,6 +431,7 @@
 [Type] == "Tainted Orb of Fusing" 	# [StashItem] == "true"
 [Type] == "Tainted Jeweller's Orb" 	# [StashItem] == "true"
 [Type] == "Tainted Blessing" 		# [StashItem] == "true"
+[Type] == "Tainted Exalted Orb" 	# [StashItem] == "true"
 
 
 /////////////////////////////////////////////////////////////////////////////////////
