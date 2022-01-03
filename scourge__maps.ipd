@@ -170,7 +170,7 @@
 [Type] == "Relic Chambers Map" 		# [RunMap] == "true"
 [Type] == "Siege Map" 				# [RunMap] == "true"
 [Type] == "Strand Map" 				# [RunMap] == "true"
-// [Type] == "Vault Map" 			# [RunMap] == "true" // unable to run
+[Type] == "Vault Map" 				# [IgnoreMap] == "true" // unable to run
 
 ///////////////////////
 //  Haewark Hamlet   //
@@ -187,7 +187,7 @@
 [Type] == "Summit Map" 				# [RunMap] == "true"
 [Type] == "Terrace Map" 			# [RunMap] == "true"
 [Type] == "Waterways Map" 			# [RunMap] == "true"
-// [Type] == "Plaza Map" 			# [RunMap] == "true" // unable to run
+[Type] == "Plaza Map" 				# [IgnoreMap] == "true" // unable to run
 // beofre "Tirn's End"
 [Type] == "Chateau Map" 			# [RunMap] == "true"
 [Type] == "Desert Spring Map" 		# [RunMap] == "true"
@@ -262,7 +262,7 @@
 [Type] == "Thicket Map" 			# [RunMap] == "true"
 [Type] == "Underground Sea Map" 	# [RunMap] == "true"
 [Type] == "Vaal Temple Map" 		# [RunMap] == "true"
-// [Type] == "Vaal Pyramid Map" 	# [RunMap] == "true" // unable to run
+[Type] == "Vaal Pyramid Map" 		# [IgnoreMap] == "true" // unable to run
 
 ///////////////////////
 //   Guardian Maps   //
