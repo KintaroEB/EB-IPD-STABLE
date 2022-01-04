@@ -1200,6 +1200,17 @@
 
 [Type] == "Divine Vessel" 			# [StashItem] == "true"
 
+// Map Fragments
+[Type] == "Fragment of the Hydra" 		# [StashItem] == "true"
+[Type] == "Fragment of the Chimera" 	# [StashItem] == "true"
+[Type] == "Fragment of the Phoenix" 	# [StashItem] == "true"
+[Type] == "Fragment of the Minotaur" 	# [StashItem] == "true"
+
+[Type] == "Fragment of Purification" 	# [StashItem] == "true"
+[Type] == "Fragment of Constriction" 	# [StashItem] == "true"
+[Type] == "Fragment of Eradication" 	# [StashItem] == "true"
+[Type] == "Fragment of Enslavement" 	# [StashItem] == "true"
+
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -1212,7 +1223,7 @@
 
 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true" // Sell 6S Whites
 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" 	# [SellUnid] == "true" // Sell 6S Magic
-
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" 	# [SellUnid] == "true" // Sell 6S Rare
 
 
 /////////////////////////////////////////////////////////////////////////////////////
