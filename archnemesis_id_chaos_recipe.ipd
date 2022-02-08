@@ -62,6 +62,7 @@
 // Ultimatum
 // Expedition
 // Scourge
+// Archnemesis
 //
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -73,7 +74,7 @@
 // Also usable to farm basic life+resist gear obviously
 // All lines except "Shield" have to be enabled in order to make !IDENTIFIED! Chaos Recipe work!
 // 
-// For !UNIDENTIFIED! Simply user the other IPD if you make no changes anyway!
+// For !UNIDENTIFIED! Simply use the other IPD if you make no changes anyway!
 
 [Category] == "Helm" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
 [Category] == "Chest" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
@@ -446,6 +447,35 @@
 [Type] == "Deft Fossil" 			# [StashItem] == "true"
 [Type] == "Fundamental Fossil" 		# [StashItem] == "true"
 
+//////////  Archnemesis Currency
+
+[Type] == "Surveyor's Compass"				# [StashItem] == "true"
+[Type] == "Charged Compass"					# [StashItem] == "true"
+[Type] == "Lesser Eldritch Ember"			# [StashItem] == "true"
+[Type] == "Greater Eldritch Ember"			# [StashItem] == "true"
+[Type] == "Grand Eldritch Ember"			# [StashItem] == "true"
+[Type] == "Exceptional Eldritch Ember"		# [StashItem] == "true"
+[Type] == "Lesser Eldritch Ichor"			# [StashItem] == "true"
+[Type] == "Greater Eldritch Ichor"			# [StashItem] == "true"
+[Type] == "Grand Eldritch Ichor"			# [StashItem] == "true"
+[Type] == "Exceptional Eldritch Ichor" 		# [StashItem] == "true"
+[Type] == "Orb of Conflict"					# [StashItem] == "true"
+[Type] == "Orb of Dominance"				# [StashItem] == "true"
+[Type] == "Eldritch Chaos Orb"				# [StashItem] == "true"
+[Type] == "Eldritch Exalted Orb"			# [StashItem] == "true"
+[Type] == "Eldritch Orb of Annulment"		# [StashItem] == "true"
+[Type] == "Singular Scouting Report"		# [StashItem] == "true"
+[Type] == "Otherworldly Scouting Report"	# [StashItem] == "true"
+[Type] == "Comprehensive Scouting Report"	# [StashItem] == "true"
+[Type] == "Vaal Scouting Report"			# [StashItem] == "true"
+[Type] == "Delirious Scouting Report"		# [StashItem] == "true"
+[Type] == "Operative's Scouting Report"		# [StashItem] == "true"
+[Type] == "Blighted Scouting Report"		# [StashItem] == "true"
+[Type] == "Influenced Scouting Report" 		# [StashItem] == "true"
+[Type] == "Explorer's Scouting Report"		# [StashItem] == "true"
+[Type] == "Oil Extractor"					# [StashItem] == "true"
+
+
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -632,6 +662,23 @@
 [Type] == "Audacity" 					 # [StashItem] == "true"
 [Type] == "The Aspirant" 				 # [StashItem] == "true"
 // NEW SCOURGE CARDS - END
+
+// NEW ARCHNEMESIS CARDS - START
+[Type] == "Judging Voices" 		 # [StashItem] == "true"
+[Type] == "Bijoux" 			 # [StashItem] == "true"
+[Type] == "Silence and Frost" 		 # [StashItem] == "true"
+[Type] == "Misery in Darkness"           # [StashItem] == "true"
+[Type] == "The Tireless Extractor" 	 # [StashItem] == "true"
+[Type] == "Justified Ambition" 		 # [StashItem] == "true"
+[Type] == "Parasitic Passengers" 	 # [StashItem] == "true"
+[Type] == "Duality" 			 # [StashItem] == "true"
+[Type] == "The One That Got Away" 	 # [StashItem] == "true"
+[Type] == "The Transformation" 		 # [StashItem] == "true"
+[Type] == "Magnum Opus" 		 # [StashItem] == "true"
+[Type] == "Imperfect Memories" 		 # [StashItem] == "true"
+[Type] == "The Magma Crab" 	         # [StashItem] == "true"
+// NEW ARCHNEMESIS CARDS - END
+
 
 // [Type] == "A Dab of Ink"              # [StashItem] == "true" //  The Poet's Pen
 [Type] == "A Familiar Call"              # [StashItem] == "true" //  Jewellery of Farrul Item Level: 100 Shaper + Hunter Item
@@ -1200,7 +1247,7 @@
 
 [Type] == "Divine Vessel" 			# [StashItem] == "true"
 
-// Map Fragments
+// Base Map Fragments
 [Type] == "Fragment of the Hydra" 		# [StashItem] == "true"
 [Type] == "Fragment of the Chimera" 	# [StashItem] == "true"
 [Type] == "Fragment of the Phoenix" 	# [StashItem] == "true"
@@ -1210,6 +1257,26 @@
 [Type] == "Fragment of Constriction" 	# [StashItem] == "true"
 [Type] == "Fragment of Eradication" 	# [StashItem] == "true"
 [Type] == "Fragment of Enslavement" 	# [StashItem] == "true"
+
+// Archnemesis Fragment
+[Type] == "Al-Hezmin's Crest" 			# [StashItem] == "true"
+[Type] == "Baran's Crest"				# [StashItem] == "true"
+[Type] == "Drox's Cres" 				# [StashItem] == "true"
+[Type] == "Veritania's Crest" 			# [StashItem] == "true"
+
+// Atlas Upgrade Item
+[Type] == "Ceremonial Voidstone"		# [StashItem] == "true"
+[Type] == "Decayed Voidstone" 			# [StashItem] == "true"
+[Type] == "Grasping Voidstone"			# [StashItem] == "true"
+[Type] == "Omniscient Voidstone"		# [StashItem] == "true"
+
+// Misc Map Item
+[Type] == "Writhing Invitation"						# [StashItem] == "true"
+[Type] == "Screaming Invitation"					# [StashItem] == "true"
+[Type] == "Polaric Invitation"						# [StashItem] == "true"
+[Type] == "Incandescent Invitation"					# [StashItem] == "true"
+[Type] == "Maven's Invitation: The Atlas"			# [StashItem] == "true"
+[Type] == "Maven's Invitation: The Elderslayers"	# [StashItem] == "true"
 
 
 
@@ -2847,6 +2914,13 @@
 // Scourge
 
 
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                             A R C H N E M E S I S                               //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Archnemesis
 
 
 /////////////////////////////////////////////////////////////////////////////////////
