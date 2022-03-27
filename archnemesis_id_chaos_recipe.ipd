@@ -2911,44 +2911,12 @@
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
 
-// Scourge
-
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                             A R C H N E M E S I S                               //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
-
-// Archnemesis League Mods
-
-[Category] == "ArchnemesisMod" 	&& [Toxic] 			&& [StashItem] == "true"  // Reward Icon: Chest, Gems          (Monster has augmented Poison powers)
-[Category] == "ArchnemesisMod" 	&& [Chaosweaver] 	&& [StashItem] == "true"  // Reward Icon: Gems                 (Monster is imbued with Chaos Damage and Resistance)
-[Category] == "ArchnemesisMod" 	&& [Frostweaver] 	&& [StashItem] == "true"  // Reward Icon: Armor                (Monster is imbued with Cold Damage and Resistance)
-[Category] == "ArchnemesisMod" 	&& [Permafrost]		&& [StashItem] == "true"  // Reward Icon: Chest, Armor         (Monster has augmented Freeze and Chill powers)
-[Category] == "ArchnemesisMod" 	&& [Hasted] 		&& [StashItem] == "true"  // Reward Icon: Chest                (Monster is faster)
-[Category] == "ArchnemesisMod" 	&& [Deadeye] 		&& [StashItem] == "true"  // Reward Icon: Armor, Jewelry       (Monster is Accurate and applies Marks)
-[Category] == "ArchnemesisMod" 	&& [Bombardier] 	&& [StashItem] == "true"  // Reward Icon: Weapons, Armor       (Monster has augmented Projectile powers and periodically unleashes a barrage of mortars)
-[Category] == "ArchnemesisMod" 	&& [Flameweaver]	&& [StashItem] == "true"  // Reward Icon: Weapons              (Monster is imbued with Fire Damage and Resistance)
-[Category] == "ArchnemesisMod" 	&& [Incendiary]		&& [StashItem] == "true"  // Reward Icon: Chest, Weapons       (Monster has augmented Ignite powers)
-[Category] == "ArchnemesisMod" 	&& [Arcane Buffer]	&& [StashItem] == "true"  // Reward Icon: Essence              (Monster has augmented Energy Shield powers and releases a stunning nova when Energy Shield breaks)
-[Category] == "ArchnemesisMod" 	&& [Echoist]		&& [StashItem] == "true"  // Reward Icon: Chest, Currency      (Monster repeats skills additional times)
-[Category] == "ArchnemesisMod" 	&& [Stormweaver]	&& [StashItem] == "true"  // Reward Icon: Jewelry              (Monster is imbued with Lightning Damage and Resistance)
-[Category] == "ArchnemesisMod" 	&& [Dynamo]			&& [StashItem] == "true"  // Reward Icon: Chest, Jewelry       (Monster has augmented Shock powers)
-[Category] == "ArchnemesisMod" 	&& [Bonebreaker]	&& [StashItem] == "true"  // Reward Icon: Chest, Weapons       (Monster has augmented Shock powers)
-[Category] == "ArchnemesisMod" 	&& [Bloodletter]	&& [StashItem] == "true"  // Reward Icon: Weapons, Jewelry     (Monster has augmented Bleed powers. Monster Maims nearby enemies Items dropped from the Monster and its Minions are Corrupted)
-[Category] == "ArchnemesisMod" 	&& [Steel-infused]	&& [StashItem] == "true"  // Reward Icon: Weapons              (Monster is imbued with Physical Damage and Physical Damage Reduction)
-[Category] == "ArchnemesisMod" 	&& [Gargantuan]		&& [StashItem] == "true"  // Reward Icon: Currency             (Monster is massive, granting more Life, Area of Effect, and Damage)
-[Category] == "ArchnemesisMod" 	&& [Berserker]		&& [StashItem] == "true"  // Reward Icon: Unique               (Monster Enrages as it loses life)
-[Category] == "ArchnemesisMod" 	&& [Sentinel]		&& [StashItem] == "true"  // Reward Icon: Armor, Armor         (Monster is imbued with Block and Spell Block. Monster Triggers Reckoning when hit)
-[Category] == "ArchnemesisMod" 	&& [Juggernaut]		&& [StashItem] == "true"  // Reward Icon: Harbringer           (Monster cannot be Slowed or Stunned. Monster gains Endurance Charges)
-[Category] == "ArchnemesisMod" 	&& [Vampiric]		&& [StashItem] == "true"  // Reward Icon: Fossils              (Monster has augmented Life Leech powers)
-[Category] == "ArchnemesisMod" 	&& [Overcharged]	&& [StashItem] == "true"  // Reward Icon: Jewelry,Jewelry      (Monster grants Charges to itself and Allies over time)
-[Category] == "ArchnemesisMod" 	&& [Soul Conduit]	&& [StashItem] == "true"  // Reward Icon: Maps                 (On death, Monster and nearby Allies are revived)
-[Category] == "ArchnemesisMod" 	&& [Opulent]		&& [StashItem] == "true"  // Reward Icon: No Icon              (Monster is fabulously wealthy)
-[Category] == "ArchnemesisMod" 	&& [Malediction]	&& [StashItem] == "true"  // Reward Icon: Div Cards            (Monster has a weakening Aura)
-[Category] == "ArchnemesisMod" 	&& [Consecrator]	&& [StashItem] == "true"  // Reward Icon: Fragments            (Monster periodically creates Consecrated Ground, healing allies and making them immune to curses and ailments)
-[Category] == "ArchnemesisMod" 	&& [Frenzied]		&& [StashItem] == "true"  // Reward Icon: Chest, Unique        (Monster and allies periodically Enrage)
 
 
 /////////////////////////////////////////////////////////////////////////////////////
